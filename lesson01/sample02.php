@@ -8,7 +8,7 @@
 </head>
 <body>
   <?php
-  echo 'PHP!';
+  echo 'I\'m studying';
   ?>
 </body>
 </html>
