@@ -7,6 +7,7 @@
   <title>sample20</title>
 </head>
 <body>
+  <!-- ↓送信側のメソッドがpostの時は$_POSTが安全性の観点から無難 -->
   <?php if(!empty($_REQUEST['my_name'])): ?>
     <!-- index.htmlのname属性に一致 -->
     <p>お名前：<?php echo htmlspecialchars($_REQUEST['my_name'], ENT_QUOTES); ?></p>
